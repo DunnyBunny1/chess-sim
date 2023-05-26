@@ -12,6 +12,7 @@
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/images/blackBishop.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/images/blackKing.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/images/blackKnight.png" afterDir="false" />
@@ -175,7 +176,7 @@
       <workItem from="1684324997622" duration="20400000" />
       <workItem from="1684413344014" duration="21253000" />
       <workItem from="1684608126585" duration="69614000" />
-      <workItem from="1685129229435" duration="1213000" />
+      <workItem from="1685129229435" duration="1991000" />
     </task>
     <servers />
   </component>
