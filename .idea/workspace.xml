@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7e15cec5-109e-411b-bf5b-8366ac52eac9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blackBishop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blackKing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blackKnight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blackPawn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blackQueen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blackRook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/whiteBishop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/whiteKing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/whiteKnight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/whitePawn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/whiteQueen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/whiteRook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/student/BoardFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/student/Direction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/student/GameBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/student/GameDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/student/ImageLabel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/student/Move.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/student/MoveGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/student/Offset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/student/Piece.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/student/Pieces/Bishop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/student/Pieces/King.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/student/Pieces/Knight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/student/Pieces/Pawn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/student/Pieces/Queen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/student/Pieces/Rook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/student/SlidingMoveGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/student/Theme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/student/Tile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/student/TilePanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/student/BoardFrame$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/student/BoardFrame$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/student/BoardFrame$BoardFrameHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/student/BoardFrame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/student/Direction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/student/GameBoard$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/student/GameBoard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/student/GameDriver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/student/ImageLabel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/student/Move.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/student/MoveGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/student/Offset.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/student/Piece.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/student/Pieces/Bishop.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/student/Pieces/King.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/student/Pieces/Knight.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/student/Pieces/Pawn.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/student/Pieces/Queen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/student/Pieces/Rook.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/student/SlidingMoveGenerator$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/student/SlidingMoveGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/student/Theme.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/student/Tile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/student/TilePanel.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/student/GameBoard.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ObY4dQ1Uui6ULUifu4URppe5P1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bmurr\Downloads\ChessJava\images" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.GameDriver">
+    <configuration name="GameBoard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="student.GameBoard" />
+      <module name="ChessJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="student.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="student.GameDriver" />
+      <module name="ChessJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="student.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GameDriver" />
+        <item itemvalue="Application.GameBoard" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7e15cec5-109e-411b-bf5b-8366ac52eac9" name="Changes" comment="" />
+      <created>1681830562516</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681830562516</updated>
+      <workItem from="1681830563882" duration="503000" />
+      <workItem from="1681831299492" duration="34721000" />
+      <workItem from="1682787515549" duration="498000" />
+      <workItem from="1683591121576" duration="31650000" />
+      <workItem from="1683815182629" duration="202000" />
+      <workItem from="1683816230229" duration="3232000" />
+      <workItem from="1683823303742" duration="7296000" />
+      <workItem from="1683841288597" duration="4330000" />
+      <workItem from="1683845786924" duration="17000" />
+      <workItem from="1683899319812" duration="7025000" />
+      <workItem from="1683929682202" duration="10218000" />
+      <workItem from="1683995758946" duration="39472000" />
+      <workItem from="1684324997622" duration="20400000" />
+      <workItem from="1684413344014" duration="21253000" />
+      <workItem from="1684608126585" duration="69614000" />
+      <workItem from="1685129229435" duration="1213000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
