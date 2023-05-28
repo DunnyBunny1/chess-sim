@@ -38,10 +38,10 @@ public final class GameBoard {
     private final Set<Tile> whiteTargetSquares;
 
     private String enPassantTargetSquare;
-    private boolean whiteCanCastleKingside;
-    private boolean whiteCanCastleQueenside;
-    private boolean blackCanCastleKingside;
-    private boolean blackCanCastleQueenside;
+    private boolean whiteCanCastleKingside = false;
+    private boolean whiteCanCastleQueenside = false;
+    private boolean blackCanCastleKingside = false;
+    private boolean blackCanCastleQueenside = false;
     private int halfMoveClock;
     private int fullMoveCounter;
 
@@ -108,33 +108,7 @@ public final class GameBoard {
         this.blackKing = initializeKing(false);
         calculateCheck(whiteToMove);
         //TODO: calculate all pins
-        calculateAllPins();
         //whatever's side turn it is, see if they are in check
-    }
-
-
-    private void calculateAllPins() {
-        for (Piece piece : this.allPiecesOnBoard) {
-            if (piece instanceof King) {
-                continue;
-            }
-            boolean isWhite = piece.isWhite;
-            boolean isPinned = false;
-            King friendlyKing = isWhite ? this.whiteKing : this.blackKing;
-            for (Direction direction : Direction.values()) {
-                switch (direction) {
-                    case DIAGONAL -> {
-
-                    }
-                    case VERTICAL -> {
-
-                    }
-                    case HORIZONTAL -> {
-
-                    }
-                }
-            }
-        }
     }
 
 
@@ -156,9 +130,46 @@ public final class GameBoard {
                     if (endLastRankIndex == -1) {
                         throw new IllegalArgumentException("Unable to parse last line of FEN String");
                     }
-                    rankChars = currentRank.substring(0, currentRank.indexOf(" ")).toCharArray();
-                    char[] extras = currentRank.substring(8).toCharArray();
+                    rankChars = currentRank.substring(0, endLastRankIndex).toCharArray();
+                    String extras = currentRank.substring(endLastRankIndex);
+                    String[] boardRights = extras.split(" ");
+                    if (boardRights.length != 5) {
+                        throw new IllegalArgumentException("Too many or too few boardRights passed in " +
+                                "last line of FEN String");
+                    }
+                    for (int i = 0; i < 5; i++) {
+                        String currentRight = boardRights[i];
+                        switch (i) {
+                            case 0 -> { // the first board right is side to move
+                                switch (currentRight) {
+                                    case "w" -> this.whiteToMove = true;
+                                    case "b" -> this.whiteToMove = false;
+                                    default ->
+                                            throw new IllegalArgumentException("Illegal Fenstring: invalid side to move");
+                                }
+                            }
+                            case 1 -> { //the second board right is castling rights
+                                for (char castlingRight : currentRight.toCharArray()) {
+                                    if (castlingRight == '-') {
+                                        break;
+                                    }
+                                    switch (castlingRight) {
+                                        case 'K' -> this.whiteCanCastleKingside = true;
+                                        case 'k' -> this.blackCanCastleKingside = true;
+                                        case 'Q' -> this.whiteCanCastleQueenside = true;
+                                        case 'q' -> this.blackCanCastleQueenside = true;
+                                        default ->
+                                                throw new IllegalArgumentException("Illegal Fenstring: invalid castling rights");
+                                    }
+                                }
+                            }
+                            case 2 -> {//the third board right is en passant target square
+//                                if(currentRight.equals())
+                            }
+                        }
+                    }
                     //TODO: use extras. extras contains castling privileges, en passant target square, etc.
+
                 }
                 int file = 0;
                 for (int i = 0; i < rankChars.length; i++) {
@@ -332,7 +343,7 @@ public final class GameBoard {
             fenBuilder.append('/');
         }
         //TODO: add fenstring extras here like castling privileges, en passant target, etc.
-        
+
         return fenBuilder.toString();
     }
 

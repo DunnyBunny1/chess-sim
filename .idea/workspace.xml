@@ -5,70 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e15cec5-109e-411b-bf5b-8366ac52eac9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/blackBishop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/blackKing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/blackKnight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/blackPawn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/blackQueen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/blackRook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/whiteBishop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/whiteKing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/whiteKnight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/whitePawn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/whiteQueen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/whiteRook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/student/BoardFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/student/Direction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/student/GameBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/student/GameDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/student/ImageLabel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/student/Move.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/student/MoveGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/student/Offset.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/student/Piece.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/student/Pieces/Bishop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/student/Pieces/King.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/student/Pieces/Knight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/student/Pieces/Pawn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/student/Pieces/Queen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/student/Pieces/Rook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/student/SlidingMoveGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/student/Theme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/student/Tile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/student/TilePanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/student/BoardFrame$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/student/BoardFrame$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/student/BoardFrame$BoardFrameHolder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/student/BoardFrame.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/student/Direction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/student/GameBoard$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/student/GameBoard.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/student/GameDriver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/student/ImageLabel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/student/Move.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/student/MoveGenerator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/student/Offset.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/student/Piece.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/student/Pieces/Bishop.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/student/Pieces/King.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/student/Pieces/Knight.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/student/Pieces/Pawn.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/student/Pieces/Queen.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/student/Pieces/Rook.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/student/SlidingMoveGenerator$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/student/SlidingMoveGenerator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/student/Theme.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/student/Tile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/student/TilePanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/student/GameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/student/GameBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/student/GameBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/student/GameBoard.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +115,7 @@
       <workItem from="1684324997622" duration="20400000" />
       <workItem from="1684413344014" duration="21253000" />
       <workItem from="1684608126585" duration="69614000" />
-      <workItem from="1685129229435" duration="1991000" />
+      <workItem from="1685129229435" duration="6147000" />
     </task>
     <servers />
   </component>
