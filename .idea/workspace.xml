@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e15cec5-109e-411b-bf5b-8366ac52eac9" name="Changes" comment="">
+    <list default="true" id="7e15cec5-109e-411b-bf5b-8366ac52eac9" name="Changes" comment="    Last local commit before adding to cloud repo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/student/GameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/student/GameBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/student/GameBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/student/GameBoard.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +22,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindBugs-IDEA-Workspace">
+    <toolWindowEditorPreview>false</toolWindowEditorPreview>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -115,8 +117,33 @@
       <workItem from="1684324997622" duration="20400000" />
       <workItem from="1684413344014" duration="21253000" />
       <workItem from="1684608126585" duration="69614000" />
-      <workItem from="1685129229435" duration="6147000" />
+      <workItem from="1685129229435" duration="7490000" />
+      <workItem from="1685397005678" duration="1589000" />
+      <workItem from="1685552761529" duration="1600000" />
+      <workItem from="1685556194759" duration="724000" />
     </task>
+    <task id="LOCAL-00001" summary="v2">
+      <created>1685234111813</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685234111813</updated>
+    </task>
+    <task id="LOCAL-00002" summary="GameBoard buildBoardFromFenString() 5 extra fen field detection added">
+      <created>1685246474229</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685246474229</updated>
+    </task>
+    <task id="LOCAL-00003" summary="GameBoard buildBoardFromFenString() 5 extra fen field detection added">
+      <created>1685404582291</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685404582291</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +159,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v2" />
+    <MESSAGE value="GameBoard buildBoardFromFenString() 5 extra fen field detection added" />
+    <MESSAGE value="Last local commit before adding to cloud repo" />
+    <MESSAGE value="    Last local commit before adding to cloud repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="    Last local commit before adding to cloud repo" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

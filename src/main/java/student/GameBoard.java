@@ -30,6 +30,7 @@ public final class GameBoard {
     public static final Color DARK_SQUARE_COLOR;
     public static final int HASHING_PRIME_NUMBER;
     public static final Set<String> pawnPromotionPieceNames;
+    public static final Set<Piece> pieceTypes;
     public static final Map<String, String> fenCharacterFromPieceType;
 
     private final Tile[][] boardTiles;
@@ -51,7 +52,6 @@ public final class GameBoard {
     private final King whiteKing;
     private final King blackKing;
 
-    private static Set<Piece> pieceTypes;
 
     private Set<Piece> whitePieces;
     private Set<Piece> blackPieces;
@@ -107,8 +107,7 @@ public final class GameBoard {
         this.whiteKing = initializeKing(true);
         this.blackKing = initializeKing(false);
         calculateCheck(whiteToMove);
-        //TODO: calculate all pins
-        //whatever's side turn it is, see if they are in check
+        //TODO: whatever's side turn it is, see if they are in check
     }
 
 
@@ -164,8 +163,43 @@ public final class GameBoard {
                                 }
                             }
                             case 2 -> {//the third board right is en passant target square
-//                                if(currentRight.equals())
+                                if (currentRight.equals("-")) {
+                                    this.enPassantTargetSquare = "";
+                                } else {
+                                    String[] letterSquareCombo = currentRight.split("");
+                                    if (letterSquareCombo.length == 2) {
+                                        String fileLetter = letterSquareCombo[0];
+                                        String rankLetterString = letterSquareCombo[1];
+                                        int rankLetter = -1;
+                                        if (isParsable(rankLetterString)) {
+                                            rankLetter = Integer.parseInt(rankLetterString);
+                                        } else {
+                                            throw new IllegalArgumentException("Illegal fenstring: error in en passant target square");
+                                        }
+                                        if ("abcdefgh".contains(fileLetter) && rankLetter >= 0 && rankLetter <= 8) {
+                                            this.enPassantTargetSquare = currentRight;
+                                        } else {
+                                            throw new IllegalArgumentException("Illegal fenstring: error in en passant target square clock");
+                                        }
+                                    }
+                                    this.enPassantTargetSquare = currentRight;
+                                }
                             }
+                            case 3 -> {//the fourth board right is the halfmove clock
+                                if (isParsable(currentRight)) {
+                                    this.halfMoveClock = Integer.parseInt(currentRight);
+                                } else {
+                                    throw new IllegalArgumentException("Illegal fenstring: error in halmove clock");
+                                }
+                            }
+                            case 4 -> {//the fifth and final board right is the full move clock
+                                if (isParsable(currentRight)) {
+                                    this.fullMoveCounter = Integer.parseInt(currentRight);
+                                } else {
+                                    throw new IllegalArgumentException("Illegal fenstring: error in halmove clock");
+                                }
+                            }
+                            //our index variable "i"
                         }
                     }
                     //TODO: use extras. extras contains castling privileges, en passant target square, etc.
