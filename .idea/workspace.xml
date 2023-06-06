@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e15cec5-109e-411b-bf5b-8366ac52eac9" name="Changes" comment="        Last local commit before adding to cloud repo">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7e15cec5-109e-411b-bf5b-8366ac52eac9" name="Changes" comment="useless commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -28,9 +27,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/student/GameBoard.java" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -46,6 +42,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "full.screen.before.presentation.mode": "false",
+    "last_opened_file_path": "C:/Users/bmurr/Downloads/PersonalProjects/ChessJava",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -119,7 +116,8 @@
       <workItem from="1685129229435" duration="7490000" />
       <workItem from="1685397005678" duration="1589000" />
       <workItem from="1685552761529" duration="1600000" />
-      <workItem from="1685556194759" duration="2305000" />
+      <workItem from="1685556194759" duration="7828000" />
+      <workItem from="1686059622490" duration="1148000" />
     </task>
     <task id="LOCAL-00001" summary="v2">
       <created>1685234111813</created>
@@ -149,7 +147,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685557353083</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="commit from inside IntellIJ">
+      <created>1685559566314</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685559566314</updated>
+    </task>
+    <task id="LOCAL-00006" summary="useless commit">
+      <created>1686060504660</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686060504660</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,7 +184,9 @@
     <MESSAGE value="Last local commit before adding to cloud repo" />
     <MESSAGE value="    Last local commit before adding to cloud repo" />
     <MESSAGE value="        Last local commit before adding to cloud repo" />
-    <option name="LAST_COMMIT_MESSAGE" value="        Last local commit before adding to cloud repo" />
+    <MESSAGE value="commit from inside IntellIJ" />
+    <MESSAGE value="useless commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="useless commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
