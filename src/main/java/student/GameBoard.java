@@ -103,7 +103,7 @@ public final class GameBoard {
         this.blackTargetSquares = new HashSet<>();
 
         //In this step we are also checking if a fenstring is valid
-        setPiecesAndTilesToNonStartingPosition(fenString);
+        setPiecesAndTilesToFENPosition(fenString);
         this.whiteKing = initializeKing(true);
         this.blackKing = initializeKing(false);
         calculateCheck(whiteToMove);
@@ -111,7 +111,7 @@ public final class GameBoard {
     }
 
 
-    private void setPiecesAndTilesToNonStartingPosition(String fenString) {
+    private void setPiecesAndTilesToFENPosition(String fenString) {
         Set<Piece> whitePieces = new HashSet<>();
         Set<Piece> blackPieces = new HashSet<>();
         try {
@@ -129,8 +129,9 @@ public final class GameBoard {
                     if (endLastRankIndex == -1) {
                         throw new IllegalArgumentException("Unable to parse last line of FEN String");
                     }
-                    rankChars = currentRank.substring(0, endLastRankIndex).toCharArray();
-                    String extras = currentRank.substring(endLastRankIndex);
+                    String piecePosition = (currentRank.substring(0, endLastRankIndex));
+                    rankChars = piecePosition.toCharArray();
+                    String extras = currentRank.substring(endLastRankIndex+1);
                     String[] boardRights = extras.split(" ");
                     if (boardRights.length != 5) {
                         throw new IllegalArgumentException("Too many or too few boardRights passed in " +
@@ -206,7 +207,7 @@ public final class GameBoard {
 
                 }
                 int file = 0;
-                for (int i = 0; i < rankChars.length; i++) {
+                for (int i = 0; i < rankChars.length && i < 8; i++) {
                     String currentPosition = String.valueOf(rankChars[i]);
                     //current position can be a piece or a number of empty tiles
                     //if it is parsable (if it is a number), we want to add that number  of empty tiles
